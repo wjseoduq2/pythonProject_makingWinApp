@@ -15,7 +15,7 @@ class MyWindow(QMainWindow, form_class):  # 다중상속 / 여기까지는 공�
 
         self.setWindowIcon(QIcon("img/flower.png"))
 
-        self.statusBar().showMessage('made by David 2024-03-29')
+        self.statusBar().showMessage('made by David 2024-03-29')  # 윈도우 하단 왼쪽 상태 문구
 
         self.button01.clicked.connect(self.button01_click)  # self.button01_click 끝에 () 절대 안됨--> error
         ## button01이 click되면 button01_click 메소드 호출
